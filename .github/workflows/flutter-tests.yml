@@ -1,6 +1,6 @@
 name: flutter-tests
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   analysis:
